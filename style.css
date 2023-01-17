@@ -1,0 +1,295 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+.container {
+    height: 0%;
+
+}
+
+.header {
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-bottom: 2px solid #dbdad7;
+    box-shadow: 0 2px #dbdad7;
+}
+
+.header img {
+    height: 14px;
+}
+
+.header span {
+    font-size: 14px;
+    font-family: Satisfy;
+}
+
+.nav {
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    margin-left: 37px;
+    margin-top: 20px;
+}
+
+.nav h3 {
+    letter-spacing: 4px;
+    color: #2B2B2B;
+    font-weight: normal;
+    font-family: Poppins;
+}
+
+.pad {
+    padding: 5px;
+}
+
+.card-one {
+    height: 615px;
+    max-width: 1611.73px;
+    position: relative;
+    background: url("img/pizza.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+
+}
+
+.card-two {
+    height: 350px;
+    max-width: 450px;
+    position: relative;
+    background: url("img/fries.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+}
+
+.card-three {
+    height: 350px;
+    max-width: 450px;
+    position: relative;
+    background: url("img/pannertikka.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+}
+
+.card-four {
+    height: 350px;
+    max-width: 450px;
+    position: relative;
+    background: url("img/macron.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+}
+
+.card-five {
+    height: 350px;
+    max-width: 450px;
+    position: relative;
+    background: url("img/donut.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+}
+
+.inner-card-one {
+    position: absolute;
+    height: 215px;
+    width: 637px;
+    top: 540px;
+    background: rgba(79, 29, 179, 0.8);
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    color: #fff;
+}
+
+.inner-card-two {
+    position: absolute;
+    height: 215px;
+    width: 450px;
+    top: 280px;
+    background: rgba(238, 238, 232, 0.7);
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    color: #000;
+}
+
+.inner-card-three {
+    position: absolute;
+    height: 215px;
+    width: 450px;
+    top: 630px;
+    background: rgba(211, 211, 208, 0.8);
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    color: #000;
+}
+
+.inner-card-four {
+    position: absolute;
+    height: 215px;
+    width: 450px;
+    top: 975px;
+    background: rgba(27, 18, 18, 0.7);
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    color: #fff;
+}
+
+.inner-card-five {
+    position: absolute;
+    height: 215px;
+    width: 450px;
+    top: 1350px;
+    background: rgba(251, 247, 240, 0.9);
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    color: #000;
+}
+
+.hr-line {
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-right: 20px;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.hr-line-two {
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-right: 20px;
+    border: 1px solid #000;
+    color: #000;
+}
+
+.hr-line-three {
+    margin-left: 20px;
+    margin-top: 70px;
+    margin-right: 20px;
+    border: 1px solid #000;
+    color: #000;
+}
+
+.hr-line-four {
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-right: 20px;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.explore-btn {
+    width: 100px;
+    margin-top: 5px;
+    margin-left: 20px;
+    padding: 5px 15px 10px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    height: 43px;
+    font-size: 12px;
+}
+
+.explore-btn-two {
+
+    width: 50px;
+    margin-top: 5px;
+    margin-left: 8px;
+    padding: 5px 15px 10px;
+    height: 43px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.explore-btn-four {
+
+    width: 50px;
+    margin-top: 5px;
+    margin-left: 8px;
+    padding: 5px 15px 10px;
+    height: 43px;
+    font-weight: bold;
+    font-size: 12px;
+
+}
+
+.innerContent {
+    margin-top: 20px;
+    margin-left: 26px;
+}
+
+.chefs {
+    height: 70px;
+    max-width: 100%;
+    line-height: 70px;
+    text-align: center;
+    margin-top: 90px;
+}
+
+.chefs h3 {
+    font-weight: normal;
+    letter-spacing: 4px;
+    color: rgba(27, 18, 18, 0.7);
+
+}
+
+.chef-review {
+    height: 400px;
+    background: url("img/friedDonut.png");
+    max-width: 100%;
+    background-size: 100% 140%;
+}
+
+.foodPlatter {
+    height: 1254px;
+    background: url("img/foodPlatter.png");
+    max-width: 100%;
+    background-size: 100% 100%;
+}
+
+.food-items {
+    font-weight: normal;
+    font-family: 'Poppins';
+    height: 70px;
+    letter-spacing: 2px;
+    max-width: 100%;
+    color: #2B2B2B;
+    line-height: 70px;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.vegetables {
+    background: url("img/eclipse.png");
+    background-repeat: no-repeat;
+    
+
+}
+.vegetables i{
+    padding: 50px;
+    font-size: 30px;
+}
+
+.food-garins {
+    background: url("img/eclipse.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.fruits {
+    background: url("img/eclipse.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.whole-protein {
+    background: url("img/eclipse.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
